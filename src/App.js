@@ -9,6 +9,7 @@ import CounterPage from "./pages/CounterPage";
 import AnimalShowPage from './pages/AnimalShowPage';
 import BookPage from "./pages/BookPage";
 import PicturesPage from './pages/PicturesPage';
+import RockPaperScissors from "./components/RockPaperScissors";
 
 function App() {
   return (
@@ -41,6 +42,9 @@ function App() {
         </Route>
         <Route path="/pictures">
           <PicturesPage />
+        </Route>
+        <Route path="/rps">
+          <RockPaperScissors />
         </Route>
       </div>
     </div>

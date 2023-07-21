@@ -12,6 +12,7 @@ function Sidebar() {
     { label: 'Animals', path: '/animals' },
     { label: 'Books', path: '/books' },
     { label: 'Pictures', path: '/pictures' },
+    { label: 'RPS', path: '/rps' },
   ]
   
   const renderedLinks = links.map((link) => {

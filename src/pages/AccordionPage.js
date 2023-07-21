@@ -5,18 +5,18 @@ function AccordionPage() {
   const items = [
     {
       id: 'ldjoifvefj',
-      label: 'Is Michael Jordan the greatest Basketball player of all-time?',
-      content: 'Yes'
+      label: 'Is Michael Jordan the greatest basketball player of all-time?',
+      content: "Maybe... some say it's LeBron James"
     },
     {
       id: 'fejsfhieh',
-      label: 'Can I use JavaScript on a project',
-      content: 'You can use React on any project you want'
+      label: 'Who is the greatest 3-point shooter of all-time?',
+      content: 'Stephen Curry'
     },
     {
       id: 'r48fjw8fj',
-      label: 'Can I use CSS on a project',
-      content: 'You can use React on any project you want'
+      label: 'Who is the greatest passer in NBA history?',
+      content: 'Magic Johnson'
     },
   ]
 
