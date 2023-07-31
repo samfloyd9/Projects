@@ -13,6 +13,7 @@ function Sidebar() {
     { label: 'Books', path: '/books' },
     { label: 'Pictures', path: '/pictures' },
     { label: 'RPS', path: '/rps' },
+    { label: 'Basketball Bible', path: '/basketball' },
   ]
   
   const renderedLinks = links.map((link) => {
