@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Saira:wght@700&display=swap');
+
 .background-layout {
   background-color: white;
 }
@@ -11,9 +13,10 @@
 
 .card-wrapper {
   border: 1px solid black;
-  padding: 10px 20px 0px 20px;
+  padding: 10px 20px 5px 20px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
   display: flex;
   flex-direction: column;
   /* width: max-content; */
@@ -41,6 +44,8 @@
 .stats-container {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
 }
 
 .image-css {
@@ -49,10 +54,12 @@
   height: auto;
   border-radius: 10px;
   border: 1px solid black;
+  z-index: -1;
   /* align-items: center;
   justify-items: center;
   align-content: center;
   justify-content: center; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .name-styling {
@@ -86,7 +93,7 @@
   font-size: 16px;
   font-weight: 600;
   color: white;
-  margin-right: 15px;
+  margin-right: 10px;
   background-color: gray;
   border-radius: 50%;
   padding: 2px;
@@ -103,11 +110,11 @@
   border: 1px solid black;
   background-color: gray;
   font-size: 12px;
-  margin-left: 15px;
+  margin-left: 10px;
   padding: 2.5px;
   border-radius: 5px;
-  overflow: hidden;
-  white-space: nowrap;
+  /* overflow: hidden;
+  white-space: nowrap; */
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -153,14 +160,56 @@
   border-right: 25px solid transparent; */
   margin-bottom: 35px;
   margin-left: -10px;
-  font-weight: bolder;
-  font-size: 10px;
+  /* font-weight: bolder; */
+  /* font-size: 10px; */
   background-color: lightyellow;
   border: .5px solid black;
-  padding: 5px;
+  padding: 0 5px 0 5px;
   border-radius: 5px;
+  font-family: 'Saira', sans-serif;
+  color: black;
 }
 
 .dropdown-layout {
-  background-color: red;
+  /* background-color: red;
+  width: 50px; */
+}
+
+.buttonStyleShit {
+  background-color: grey;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  width: 100px;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.changeImage {
+  margin-bottom: 200px;
+  margin-left: 15px;
+}
+
+.changePic:hover {
+  color: lightblue;
+}
+
+.changePic {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.switchThingy {
+  display: flex;
+  flex-direction: row;
 }

@@ -3,7 +3,7 @@ import '../styles/BasketballBible.css'
 
 function BasketballBiblePage() {
   return (
-    <div>
+    <div className="mb-5">
       <BasketballBible />
     </div>
   );
